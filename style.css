@@ -1,0 +1,131 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(yellow, blue);
+  
+    font-family: "Oswald", sans-serif;
+  
+  }
+  
+  .container {
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    /* border : 2px solid black; */
+  
+  }
+  
+  .container h1 {
+    margin: 5px 165px;
+    text-decoration-line: underline;
+  }
+  
+  .inputcontainer {
+    display: flex;
+    gap: 5px;
+  
+  }
+  
+  .inputcontainer input {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px #000000;
+    text-decoration-line: underline;
+    padding: 10px 10px 10px 20px;
+    height: 35px;
+    width: 450px;
+  
+  
+  
+  }
+  
+  
+  .addbtn {
+    background: linear-gradient(rgb(241, 241, 140), rgb(153, 153, 241));
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px #000000;
+    font-size: 20px;
+    padding: 0px 20px;
+  }
+  
+  .addbtn:hover {
+    cursor: pointer;
+    background: linear-gradient(yellow, blue)
+  }
+  .update{
+    display: none;
+    background: linear-gradient(rgb(241, 241, 140), rgb(153, 153, 241));
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px #000000;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+.update:hover{
+    cursor: pointer;
+    background: linear-gradient(yellow, blue)
+}
+  
+  li {
+    /* list-style: none; */
+  
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    margin: 10px 25px;
+    font-weight: 600;
+  
+  
+  
+  }
+  
+  /* li span {
+  
+    color: black;
+    background: linear-gradient(yellow, blue);
+    margin: 0px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  li span:hover {
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+  
+  } */
+  
+  .todotext ul{
+    display: flex;
+    gap: 5px;
+    margin: 20px 10px;
+    overflow: hidden;
+}
+.edits{
+    background: linear-gradient(rgb(241, 241, 140), rgb(153, 153, 241));
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px #000000;
+    font-size: 20px;
+    padding: 0px 20px;
+
+}
+.delete{
+    background: linear-gradient(rgb(241, 241, 140), rgb(153, 153, 241));
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px #000000;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+.delete:hover , .edits:hover{
+    cursor: pointer;
+    background: linear-gradient(yellow, blue)
+}
+
+   
