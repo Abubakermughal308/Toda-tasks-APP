@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body onload="Addall()">
+    
+    <div class="container">
+        <h1>To do Tasks</h1>
+        <div class="inputcontainer">
+            <input type="text" hidden class="id">
+            <input type="text" placeholder="Enter your Task..." class="tasks"  >
+            <button onclick="add() "  class="addbtn">Add</button>
+            <button onclick="update()" class="update">Update</button>
+        </div>
+        <div class="todotext">
+           
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
